@@ -1,0 +1,110 @@
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+header {
+    margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+    text-shadow: 0 2px white, 0 3px #777;
+    text-align: center;
+}
+
+
+.new-book {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* The popup form - hidden by default */
+.form-popup {
+    text-align: center;
+    /* position: fixed;
+    bottom: 0;
+    right: 15px; */
+    /* transform: translate(-50%, -50%); */
+    /* border: 3px solid #f1f1f1; */
+    /* z-index: 9; */
+}
+  
+  /* Add styles to the form container */
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+    display: none;
+}
+
+.form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+
+
+
+
+.table-library {
+      display: grid;
+      justify-content: center;
+      grid-template-columns: repeat(5, 170px);
+      grid-template-rows: 2;
+}
+
+.top {
+    background-color: rgba(63, 64, 150, 0.8);
+}
+
+
+/* 
+  #titleTable {
+    grid-column-start: 1;
+    grid-column-end: 2
+  }
+
+  #authorTable {
+    grid-column-start: 2;
+    grid-column-end: 3
+  } */

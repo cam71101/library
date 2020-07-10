@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<header>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+        Library
+</header>
+
+<body>
+    <div class="books"></div>
+
+    <button class="new-book" onclick="openForm()">New book</button>
+
+    <div class="table-library">
+            <div class="top"> Title</div>
+            <div class="top"> Author </div>
+            <div class="top"> Pages </div>
+            <div class="top"> Status </div>
+            <div class="top">  </div>
+    </div>
+
+    <div class="form-popup" id="myForm">
+        <form class="form-container">
+      
+            <label for="author"><b>Author</b></label>
+            <input type="text" placeholder="Enter Author" id="author" required>
+        
+            <label for="title"><b>Title</b></label>
+            <input type="text" placeholder="Enter Title" id="title" required>
+
+            <label for="pages"><b>Pages</b></label>
+            <input type="text" placeholder="Number of Pages" id="pages" required>
+
+            <label for="read"><b>Have you read it?</b></label>
+            <input type="text" placeholder="Yes or No" id="read" required>
+
+            
+            <button type="submit" class="btn" id="submit">Submit</button>
+
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+
+</body>
+
+<footer>
+<script src= "uuidv4.js"></script>
+<script src = "library.js"></script>
+
+</footer>
