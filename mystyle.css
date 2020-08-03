@@ -85,12 +85,11 @@ header {
 
 
 
-
 .table-library {
-      display: grid;
-      justify-content: center;
-      grid-template-columns: repeat(5, 170px);
-      grid-template-rows: 2;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(5, 170px);
+  grid-template-rows: 2;
 }
 
 .top {

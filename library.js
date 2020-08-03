@@ -7,7 +7,7 @@ class Book {
         this.id = uuidv4()
     }
 }
-
+ 
     
 const library = {
         
@@ -45,7 +45,6 @@ const library = {
             } else if (read.validity.valueMissing) { 
               read.setCustomValidity("Please fill in!");
             } else {
-                // email.setCustomValidity("");
                 const book = new Book(author.value, title.value, pages.value, read.value)
                 library.addBook(book)
                 closeForm()
